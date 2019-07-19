@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-19T09:15:56.300Z</updated>
+  <updated>2019-07-19T19:04:50.526Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>云顶之弈吃鸡阵容  19/7/20</title>
+    <link href="http://yoursite.com/2019/07/20/%E4%BA%91%E9%A1%B6%E4%B9%8B%E5%BC%88-19-7-20/"/>
+    <id>http://yoursite.com/2019/07/20/云顶之弈-19-7-20/</id>
+    <published>2019-07-19T18:31:27.000Z</published>
+    <updated>2019-07-19T19:04:50.526Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录一下7/20号的云顶之弈使用的吃鸡套路</p><a id="more"></a><h4 id="1-四狂野三换形三法三约德尔人"><a href="#1-四狂野三换形三法三约德尔人" class="headerlink" title="1. 四狂野三换形三法三约德尔人"></a>1. 四狂野三换形三法三约德尔人</h4><h5 id="阵容分析"><a href="#阵容分析" class="headerlink" title="阵容分析"></a>阵容分析</h5><ul><li>四狂野前期成型提供大量攻速</li><li>中期成型换型或者三法，输出核心龙王。</li><li>因为对手为物理持续性输出阵容，后期形成3约德尔人羁绊<h5 id="核心装备"><a href="#核心装备" class="headerlink" title="核心装备"></a>核心装备</h5></li><li>露露：鸟盾、青龙刀\炽天使</li><li>龙王：火炮、青龙刀</li><li>纳尔、龙女：可以给攻速</li><li>其他人：肉装<div align="center"><img width="500" src="https://raw.githubusercontent.com/Mut1/picture/master/picgo/lol.jpg"></div>  </li></ul><hr><h4 id="2-六极地三元素两护卫"><a href="#2-六极地三元素两护卫" class="headerlink" title="2. 六极地三元素两护卫"></a>2. 六极地三元素两护卫</h4><h5 id="阵容分析-1"><a href="#阵容分析-1" class="headerlink" title="阵容分析"></a>阵容分析</h5><ul><li> 核心输出位：寒冰</li><li>元素羁绊提供控制</li><li>中后期可以四游侠输出拉满。这局忘记拿vn，到后期放弃游侠buff转元素，提供前排肉盾，保证寒冰可以持续输出<h5 id="核心装备-1"><a href="#核心装备-1" class="headerlink" title="核心装备"></a>核心装备</h5></li><li>寒冰：火炮、青龙刀、羊刀<div align="center"><img width="500" src="https://raw.githubusercontent.com/Mut1/picture/master/picgo/lol2.jpg"></div>  </li></ul><hr><h4 id="3-四枪手海盗元素赌狗流"><a href="#3-四枪手海盗元素赌狗流" class="headerlink" title="3.四枪手海盗元素赌狗流"></a>3.四枪手海盗元素赌狗流</h4><h5 id="阵容分析-2"><a href="#阵容分析-2" class="headerlink" title="阵容分析"></a>阵容分析</h5><ul><li>四枪手保证输出、三海盗提供经济来赌。5人口即可初步成型</li><li>中期存钱，看情况添加人口和其他羁绊。三星英雄多、小炮装备好即可存钱三元素，否则拿提供输出的羁绊。</li><li>第一次选秀和小兵有反曲弓+（红buff）、第三回合前拿到船长就完全可以玩。<h5 id="核心装备-2"><a href="#核心装备-2" class="headerlink" title="核心装备"></a>核心装备</h5></li><li>小炮：火炮、红buff、羊刀</li><li>派克：青龙刀<div align="center"><img width="500" src="https://raw.githubusercontent.com/Mut1/picture/master/picgo/lol3.jpg"></div>  </li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;记录一下7/20号的云顶之弈使用的吃鸡套路&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="游戏" scheme="http://yoursite.com/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+      <category term="云顶之弈" scheme="http://yoursite.com/tags/%E4%BA%91%E9%A1%B6%E4%B9%8B%E5%BC%88/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo 4000端口被占用问题解决</title>
