@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>hexo 安装问题记录 | Mut&#39;s blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="hexo,indigo">
+    <meta name="description" content="1. 开启indigo主题的tag页 在blog文件夹下输入命令：hexo new page tags 修改文件：hexo/source/tags/index.md 添加代码：layout：tags   2. md无法解析，hexo s出错         解决方法：  使用vim打开markdown文件，查看是否有错误字符">
+<meta name="keywords" content="hexo,indigo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo 安装问题记录">
+<meta property="og:url" content="http://yoursite.com/2019/07/16/hexo问题记录/index.html">
+<meta property="og:site_name" content="Mut&#39;s blog">
+<meta property="og:description" content="1. 开启indigo主题的tag页 在blog文件夹下输入命令：hexo new page tags 修改文件：hexo/source/tags/index.md 添加代码：layout：tags   2. md无法解析，hexo s出错         解决方法：  使用vim打开markdown文件，查看是否有错误字符">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="https://raw.githubusercontent.com/Mut1/picture/master/picgo/md出错.png">
+<meta property="og:updated_time" content="2019-07-19T03:54:08.192Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo 安装问题记录">
+<meta name="twitter:description" content="1. 开启indigo主题的tag页 在blog文件夹下输入命令：hexo new page tags 修改文件：hexo/source/tags/index.md 添加代码：layout：tags   2. md无法解析，hexo s出错         解决方法：  使用vim打开markdown文件，查看是否有错误字符">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/Mut1/picture/master/picgo/md出错.png">
+    
+        <link rel="alternate" type="application/atom+xml" title="Mut&#39;s blog" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/img/主页头像.JPG">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu"  >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/主页头像.JPG">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Mut</h5>
+          <a href="mailto:1029779489@qq.com" title="1029779489@qq.com" class="mail">1029779489@qq.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                Archives
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                Tags
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://weibo.com/u/5751907984?is_hot=1#1563418625789" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                Weibo
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">hexo 安装问题记录</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="Search">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">hexo 安装问题记录</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2019-07-16T05:41:15.000Z" itemprop="datePublished" class="page-time">
+  2019-07-16
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/问题记录/">问题记录</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-开启indigo主题的tag页"><span class="post-toc-text">1. 开启indigo主题的tag页</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-md无法解析，hexo-s出错"><span class="post-toc-text">2. md无法解析，hexo s出错</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-hexo问题记录"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">hexo 安装问题记录</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2019-07-16 13:41:15" datetime="2019-07-16T05:41:15.000Z"  itemprop="datePublished">2019-07-16</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/问题记录/">问题记录</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h3 id="1-开启indigo主题的tag页"><a href="#1-开启indigo主题的tag页" class="headerlink" title="1. 开启indigo主题的tag页"></a>1. 开启indigo主题的tag页</h3><ul>
+<li>在blog文件夹下输入命令：<code>hexo new page tags</code></li>
+<li>修改文件：<code>hexo/source/tags/index.md</code></li>
+<li>添加代码：<code>layout：tags</code></li>
+</ul>
+<hr>
+<h3 id="2-md无法解析，hexo-s出错"><a href="#2-md无法解析，hexo-s出错" class="headerlink" title="2. md无法解析，hexo s出错"></a>2. md无法解析，hexo s出错</h3><div align="center">
+  <img width="400" src="https://raw.githubusercontent.com/Mut1/picture/master/picgo/md出错.png">
+</div>
+
+
+<p>  解决方法：</p>
+<blockquote>
+<p>使用vim打开markdown文件，查看是否有错误字符  </p>
+</blockquote>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+        
+<span class="post-time">
+    Last updated: <time datetime="2019-07-19T03:54:08.192Z" itemprop="dateUpdated">2019-07-19 11:54:08</time>
+</span><br>
+
+
+        
+    </div>
+    
+    <footer>
+        <a href="http://yoursite.com">
+            <img src="/img/主页头像.JPG" alt="Mut">
+            Mut
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/indigo/">indigo</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2019/07/16/hexo问题记录/&title=《hexo 安装问题记录》 — Mut's blog&pic=http://yoursite.com/img/主页头像.JPG" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2019/07/16/hexo问题记录/&title=《hexo 安装问题记录》 — Mut's blog&source=记录自己" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2019/07/16/hexo问题记录/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《hexo 安装问题记录》 — Mut's blog&url=http://yoursite.com/2019/07/16/hexo问题记录/&via=http://yoursite.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2019/07/16/hexo问题记录/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/2019/07/19/markdown-问题记录/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">markdown 问题记录</h4>
+      </a>
+    </div>
+  
+
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢大爷~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/wechat.jpg" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/wechat.jpg" data-alipay="/img/alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>This blog is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>Mut &copy; 2017 - 2019</span>
+            <span>
+                
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2019/07/16/hexo问题记录/&title=《hexo 安装问题记录》 — Mut's blog&pic=http://yoursite.com/img/主页头像.JPG" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2019/07/16/hexo问题记录/&title=《hexo 安装问题记录》 — Mut's blog&source=记录自己" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2019/07/16/hexo问题记录/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《hexo 安装问题记录》 — Mut's blog&url=http://yoursite.com/2019/07/16/hexo问题记录/&via=http://yoursite.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2019/07/16/hexo问题记录/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKklEQVR42u3aQWrEMAwF0Ln/pafbQhv3S5oUYj+vQiaN/VIQsqXXKx7vb+PqTvL8z+v1X314YGBgPJbxXo71M+tlrWdJfk3WhoGBcQ7jauJkofPA2nsDBgYGRv7qPE1MkksMDAyM+wJustDJ1hcDAwMj36ZGW8rW58jnwsDAOI2Rn7r///Ut9Q0MDIxHMd7FMS9zVu9Eq8LAwNia8dkC5KdKCL1PhoGBsTejGjR7YXEdUnslh1Hsx8DAeAgjOVBbH8cnSWS1/aJaOsXAwDiBMdlGJqXH/KNUQy0GBsY5jF7K2APfUhDFwMDYmpG8aF4j7RUY8sCNgYFxDmOymUyCbzUpTO5f1jcwMDA2YlQLAEkJoRwog5j5R6qKgYFxDOOOAsAdZYBCtwgGBsYWjF5CluSb1XDcK51iYGCcwGjueuP0Li9JTprGMDAwzmHMr/MjuV5hoLAXx8DA2IixXkQ1OM4bNfKywS/PYGBgbM3otV/kyOqx3STFxMDA2JWRLLTXqJonl/mWOGpgxcDAOIBRDXyTRrFCU0VSj8XAwDiSkSR5r3hEDROthBUDA2NXxrs4qiGyGkzzY7jL/wMGBsZ2jF6wq7ZHVJeSP1/GYGBgPJaRB9lqwtdLBHtrwMDAOIFRDXxJsri+39sMXz6JgYGBEbdQ5MllPns0CwYGBkZ8nR+W5aE2ImFgYBzAyIsB1S1rNRw3Sw4YGBhbM6pbx6ToOEkTJ4EYAwNjO8YXor90crzQ17YAAAAASUVORK5CYII=" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
+
+
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
